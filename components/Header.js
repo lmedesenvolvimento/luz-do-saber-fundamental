@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { loadGetInitialProps } from "next-server/dist/lib/utils";
 
-const Header = () => (
+const Header = (props) => (
     <nav className="d-flex row main-nav">
         <div className="col-sm">
         <div className="row logo">
@@ -23,33 +24,7 @@ const Header = () => (
             </div>
             <div className="row">
                 <ul className="col-sm menu">
-                        <Link href='/' passHref>
-                            <li className="inicio selected">Início</li>
-                        </Link>
-                        {/* <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/' passHref>
-                            <li className="inicio selected">Início</li>
-                        </Link> */}
-                        <Link href="/contact" passHref>
-                            <li className="software">software</li>
-                        </Link>
-                        <Link href="/contact" passHref>
-                            <li className="download">Download</li>
-                        </Link>
-                        <Link href="/contact" passHref>
-                            <li className="tutorial">Tutorial</li>
-                        </Link>
-                        <Link href="/contact" passHref>
-                            <li className="forum">Fórum</li>
-                        </Link>
-                        <Link href="/contact" passHref>
-                            <li className="creditos">Créditos</li>
-                        </Link>
-                        <Link href='/contact' passHref>
-                            <li className="contato">Contato</li>
-                        </Link>
-                        {/* <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/contact' passHref>
-                            <li className="contato">Contato</li>
-                        </Link> */}
+                    { props.children }
                 </ul>
             </div>
         </div>

@@ -1,10 +1,35 @@
+import Link from "next/link";
 import BaseLayout from "../components/Base-Layout";
 import Footer from '../components/Footer';
+import Header from "../components/Header";
 
 export default function Contact() {
     return (
         <div>
             <BaseLayout>
+                <Header>
+                    <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/' passHref>
+                        <li className="inicio">Início</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="software">software</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="download">Download</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="tutorial">Tutorial</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="forum">Fórum</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="creditos">Créditos</li>
+                    </Link>
+                    <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/contact' passHref>
+                        <li className="contato selected">Contato</li>
+                    </Link>
+                </Header>
                 <section className="banner full-width">
                     <div className="pagination">
                         <span className="pagination-item">principal</span> <span className="pagination-item">/</span> <span className="pagination-item">contato</span>
@@ -17,7 +42,7 @@ export default function Contact() {
                             </div>
 
                             <div className="col banner-right-content">
-                                <div>
+                                <div className="form-header">
                                     <h2>Entre em Contato Conosco!</h2>
                                     <span className="title"><strong>SEDUC (ASTIN):</strong> (85) 3101-3963</span>
                                 </div>
@@ -38,10 +63,10 @@ export default function Contact() {
                                     </div>
 
                                     <div className="search-bar-itens outer-card shadow-sm">
-                                        <textarea className="inner-card" name="mensagem" id="mensagem" cols="50" rows="4" placeholder="ESCREVA SUA MENSAGEM"></textarea>
+                                        <textarea className="inner-card" name="mensagem" id="mensagem" cols="56" rows="4" placeholder="ESCREVA SUA MENSAGEM"></textarea>
                                     </div>
                                     
-                                    <div className="search-bar-itens btn-container shadow-sm">
+                                    <div className="search-bar-itens btn-container btn-contact shadow-sm">
                                         <button className="btn search-input btn-font-dark form-input-font">Enviar</button>
                                     </div>
                                 </form>
@@ -58,20 +83,7 @@ export default function Contact() {
 
             <style jsx>{`
                 .pagination {
-                    display: flex;
-                    align-items: center;
-                    position: absolute;
                     background: #50946D;
-                    border-radius: 0;
-                    width: 100%;
-                    height: 50px;
-                    padding: 0 90px;
-                    color: #fff;
-                    font-size: 0.8em;
-                    text-transform: uppercase;
-                }
-                .pagination-item {
-                    margin-right: 10px;
                 }
 
                 .banner {
@@ -86,6 +98,10 @@ export default function Contact() {
                 }
                 .shadow-textarea textarea.form-control {
                     padding-left: 0.8rem;
+                }
+
+                .form-header {
+                    margin-bottom: 20px;
                 }
 
                 .outer-card {
@@ -127,8 +143,16 @@ export default function Contact() {
                 }
 
                 .search-input-container {
-                    margin-right: 10px;
-                    margin-top: 20px;
+                    margin: 0 10px 20px 0;
+                }
+
+                .btn-contact {
+                    margin: 30px 0 0 405px;
+                }
+
+                .selected {
+                    background: #50946D;
+                    color: #fff;
                 }
 
                 .footer {

@@ -1,11 +1,35 @@
 import Link from "next/link";
 import BaseLayout from '../components/Base-Layout';
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export default function Index() {
     return (
         <div>
             <BaseLayout>
+                <Header>
+                    <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/' passHref>
+                        <li className="inicio selected">Início</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="software">software</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="download">Download</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="tutorial">Tutorial</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="forum">Fórum</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="creditos">Créditos</li>
+                    </Link>
+                    <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/contact' passHref>
+                        <li className="contato">Contato</li>
+                    </Link>
+                </Header>
 
                 <section className="banner full-width">
                     <div className="container">
@@ -19,21 +43,23 @@ export default function Index() {
 
                                 <span className="section-text">Clique no botão abaixo para iniciar</span>
 
-                                <div className="play-button">
-                                    <div>
-                                        <div className="outer-card rounded-circle shadow-sm">
-                                            <div className="inner-card">
-                                                <Link href="http://luz-do-saber-portal-staging.herokuapp.com/#/" passHref>
-                                                    <a target="_blank"><img src="static/btn_iniciar.svg" alt="" width="30px;" /></a>
-                                                </Link>
+                                <Link href="http://luz-do-saber-portal-staging.herokuapp.com/#/" passHref>
+                                    <a target="_blank">
+                                        <div className="play-button">
+                                            <div>
+                                                <div className="outer-card rounded-circle shadow-sm">
+                                                    <div className="inner-card">
+                                                        <img src="static/btn_iniciar.svg" alt="" width="30px;" />
+                                                    </div>
+                                                </div>
+
+                                                <div className="search-bar-itens shadow-lg play-card play-card-outer">
+                                                    <button className="btn search-input form-input-font btn-font-orange play-card">Iniciar</button>
+                                                </div>
                                             </div>
                                         </div>
-
-                                        <div className="search-bar-itens shadow-lg play-card play-card-outer">
-                                            <button className="btn search-input form-input-font btn-font-orange play-card">Iniciar</button>
-                                        </div>
-                                    </div>
-                                </div>
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -150,6 +176,7 @@ export default function Index() {
                     height: 60px;
                     border-radius: 20px;
                     font-size: 1.2em;
+                    z-index: 1;
                 }
                 .play-card-outer {
                     width: 160px;
@@ -204,6 +231,11 @@ export default function Index() {
                 }
                 .btn-container {
                     width: 101px;
+                }
+
+                .selected {
+                    background: #FFB151;
+                    color: #fff;
                 }
             `}</style>
         </div>

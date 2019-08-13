@@ -75,8 +75,6 @@ a {
     box-shadow: 0 0 0 1px #75C0FF;
 }
 
-/* FIM INPUTS */
-
 /* BUTTONS */
 .btn-container {
     margin-left: 15px;
@@ -138,4 +136,59 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     color: #25a19c;
+}
+
+/* 
+    GLOBAL NAVBAR STYLES
+*/
+.menu {
+    position: absolute;
+    bottom: -17px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+    width: 100px;
+    font-size: 0.8em;
+    text-align: center;
+    border: 1px solid #F0F0F0;
+    margin-left: 1px;
+}
+
+.menu li:hover { cursor: pointer; }
+
+.menu li a { color:#333; text-decoration:none; display:block; }
+
+.menu .inicio { border: 1px solid transparent; border-top: 3px solid #FFB151; }
+.menu .inicio:hover { background: #FFB151; color: #fff; }
+.menu .software { border: 1px solid transparent; border-top: 3px solid #F766AE; }
+.menu .software:hover { background: #F766AE; color: #fff; }
+.menu .download { border: 1px solid transparent; border-top: 3px solid #AE67E0; }
+.menu .download:hover { background: #AE67E0; color: #fff; }
+.menu .tutorial { border: 1px solid transparent; border-top: 3px solid #757BFA; }
+.menu .tutorial:hover { background: #757BFA; color: #fff; }
+.menu .forum { border: 1px solid transparent; border-top: 3px solid #75C0FF; }
+.menu .forum:hover { background: #75C0FF; color: #fff; }
+.menu .creditos { border: 1px solid transparent; border-top: 3px solid #50C0AA; }
+.menu .creditos:hover { background: #50C0AA; color: #fff; }
+.menu .contato { border: 1px solid transparent; border-top: 3px solid #50946D; }
+.menu .contato:hover { background: #50946D; color: #fff; }
+
+/* 
+    PAGINATION
+*/
+
+.pagination {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border-radius: 0;
+    width: 100%;
+    height: 50px;
+    padding: 0 15%;
+    text-transform: uppercase;
+}
+.pagination-item {
+    margin-right: 10px;
 }
