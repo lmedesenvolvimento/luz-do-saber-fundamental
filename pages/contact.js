@@ -63,7 +63,7 @@ export default function Contact() {
                                     </div>
 
                                     <div className="search-bar-itens outer-card shadow-sm">
-                                        <textarea className="inner-card" name="mensagem" id="mensagem" cols="56" rows="4" placeholder="ESCREVA SUA MENSAGEM"></textarea>
+                                        <textarea className="inner-card" name="mensagem" id="mensagem" cols="50" rows="4" placeholder="ESCREVA SUA MENSAGEM"></textarea>
                                     </div>
                                     
                                     <div className="search-bar-itens btn-container btn-contact shadow-sm">
@@ -116,8 +116,8 @@ export default function Contact() {
                 }
 
                 .inner-card {
-                    border: 1px solid #DEDEDE;
-                    border-radius: 30px;
+                    border: 3px solid #F0F0F0;
+                    border-radius: 25px;
                     padding: 10px 15px 10px 15px;;
                     outline: none;
                 }
@@ -132,10 +132,6 @@ export default function Contact() {
                     text-transform: uppercase;
                     font-weight: bold;
                     color: #25a19c;
-                }
-
-                .search-input {
-                    left: 7px;
                 }
 
                 .search-input-large {

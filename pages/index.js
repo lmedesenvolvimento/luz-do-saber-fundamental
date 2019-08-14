@@ -47,9 +47,9 @@ export default function Index() {
                                     <a target="_blank">
                                         <div className="play-button">
                                             <div>
-                                                <div className="outer-card rounded-circle shadow-sm">
+                                                <div className="outer-card rounded-circle">
                                                     <div className="inner-card">
-                                                        <img src="static/btn_iniciar.svg" alt="" width="30px;" />
+                                                        <img src="static/btn_iniciar.svg" alt="" width="38px;" />
                                                     </div>
                                                 </div>
 
@@ -104,7 +104,7 @@ export default function Index() {
                                 <input className="search-input search-input-large form-input-font" type="text" name="search" id="search" placeholder="ESCREVA SEU E-MAIL" />
                             </div>
                             <div className="search-bar-itens btn-container shadow-sm">
-                                <button className="btn search-input btn-font-dark form-input-font">Enviar</button>
+                                <button className="btn btn-font-dark form-input-font">Enviar</button>
                             </div>
                         </div>
                     </div>
@@ -154,31 +154,36 @@ export default function Index() {
                     width: 100px;
                     height: 100px;
                     background: #fff;
+                    -webkit-box-shadow: 0px 0px 5px 2px rgba(50, 50, 50, 1);
+                    -moz-box-shadow:    0px 0px 5px 2px rgba(50, 50, 50, 1);
+                    box-shadow:         -1px 2px 5px 1px rgba(50, 50, 50, 0.3);
                 }
                 .inner-card {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: 90px;
-                    height: 90px;
+                    width: 92px;
+                    height: 92px;
                     border: 3px solid #CA8C40;
                     background: #ffb248;
                     border-radius: 50px;
                 }
-                .inner-card > a {
-                    padding-left: 3px;
+                .inner-card > img {
+                    margin-left: 5px;
                 }
                 .play-card {
                     position: absolute;
-                    left: 70px;
-                    top: 17px;
-                    width: 150px;
-                    height: 60px;
+                    top: 3px;
+                    width: 153px;
+                    height: 64px;
                     border-radius: 20px;
                     font-size: 1.2em;
                     z-index: 1;
                 }
                 .play-card-outer {
+                    position: relative;
+                    top: 15px;
+                    left: 70px;
                     width: 160px;
                     height: 70px;
                 }
@@ -224,13 +229,6 @@ export default function Index() {
                 }
                 .search-input-container-large {
                     width: 349px;
-                }
-                .search-input {
-                    left: 6px;
-                    top: 5px;
-                }
-                .btn-container {
-                    width: 101px;
                 }
 
                 .selected {

@@ -16,10 +16,10 @@ const Header = (props) => (
                     <input className="search-input form-input-font" type="text" name="search" id="search" placeholder="O QUE VOCÊ PROCURA?" />
                 </div>
                 <form className="search-bar-itens btn-container shadow-sm" action="https://luz-do-saber-staging.herokuapp.com/#/" target="_blank">
-                    <button className="btn search-input btn-font-light form-input-font">Entrar</button>
+                    <button className="btn btn-font-light form-input-font">Entrar</button>
                 </form>
                 <div className="search-bar-itens btn-container shadow-sm">
-                    <button className="btn search-input btn-font-dark form-input-font">Instalar</button>
+                    <button className="btn btn-font-dark form-input-font">Instalar</button>
                 </div>
             </div>
             <div className="row">
@@ -49,51 +49,9 @@ const Header = (props) => (
                 right: 70px;
                 top: 30px;
             }
-
-            .menu {
-                position: absolute;
-                bottom: -17px;
-            }
-
-            .menu li {
-                display: inline-block;
-                padding: 10px;
-                width: 100px;
-                font-size: 0.8em;
-                text-align: center;
-                border: 1px solid #F0F0F0;
-                margin-left: 1px;
-            }
-
-            .menu li:hover { cursor: pointer; }
-
-            .menu li a { color:#333; text-decoration:none; display:block; }
-
-            .menu .inicio { border: 1px solid transparent; border-top: 3px solid #FFB151; }
-            .menu .inicio:hover { background: #FFB151; color: #fff; }
-            .menu .software { border: 1px solid transparent; border-top: 3px solid #F766AE; }
-            .menu .software:hover { background: #F766AE; color: #fff; }
-            .menu .download { border: 1px solid transparent; border-top: 3px solid #AE67E0; }
-            .menu .download:hover { background: #AE67E0; color: #fff; }
-            .menu .tutorial { border: 1px solid transparent; border-top: 3px solid #757BFA; }
-            .menu .tutorial:hover { background: #757BFA; color: #fff; }
-            .menu .forum { border: 1px solid transparent; border-top: 3px solid #75C0FF; }
-            .menu .forum:hover { background: #75C0FF; color: #fff; }
-            .menu .creditos { border: 1px solid transparent; border-top: 3px solid #50C0AA; }
-            .menu .creditos:hover { background: #50C0AA; color: #fff; }
-            .menu .contato { border: 1px solid transparent; border-top: 3px solid #50946D; }
-            .menu .contato:hover { background: #50946D; color: #fff; }
-
-            .selected {
-                background: #FFB151;
-            }
-
+            
             .logo-rosto {
                 position: absolute;
-            }
-
-            input, button {
-                margin-left: 25px;
             }
         `}</style>
     </nav>
