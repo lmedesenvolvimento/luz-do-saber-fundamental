@@ -6,8 +6,8 @@ const Header = (props) => (
         <div className="col-sm">
         <div className="row logo">
             <h1 className="hidden-title">LUZ DO SABER - PORTAL</h1>
-            <img className="logo-rosto" src="static/logo-rosto-0.png" alt="Logo Sol Luz do Saber" width="55%" />
-            <img src="static/logo-raios.png" alt="Logo Sol Luz do Saber" width="55%" />
+            <img className="logo-rosto" src="static/logo-rosto-0.png" alt="Logo Sol Luz do Saber" />
+            <img className="logo-raio" src="static/logo-raios.png" alt="Logo Sol Luz do Saber" />
         </div>
         </div>
         <div className="col-sm-8 nav-search">
@@ -23,6 +23,15 @@ const Header = (props) => (
                 </div>
             </div>
             <div className="row">
+
+                <input id="menu-hamburguer" type="checkbox" />
+
+                <label for="menu-hamburguer">
+                    <div className="menu-sm">
+                        <span className="hamburguer"></span>
+                    </div>
+                </label>
+
                 <ul className="col-sm menu">
                     { props.children }
                 </ul>
@@ -30,9 +39,80 @@ const Header = (props) => (
         </div>
 
         <style jsx>{`
+            *:before,
+            *:after {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .menu-sm {
+                background: #FFB151;
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+            }
+
+            .hamburguer {
+                position: relative;
+                display: block;
+                background: #000;
+                width: 30px;
+                height: 2px;
+                top: 29px;
+                left: 15px;
+                transition: .5s ease-in-out;
+            }
+
+            .hamburguer:before,
+            .hamburguer:after {
+                background: #000;
+                content: '';
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                transition: .5s ease-in-out;
+            }
+
+            .hamburguer:before {
+                top: -10px;
+            }
+
+            .hamburguer:after {
+                bottom: -10px;
+            }
+
+            input[type=checkbox] {
+                display: none;
+            }
+
+            input:checked ~ label .hamburguer {
+                transform: rotate(45deg);
+            }
+
+            input:checked ~ label .hamburguer:before {
+                transform: rotate(90deg);
+                top: 0;
+            }
+
+            input:checked ~ label .hamburguer:after {
+                transform: rotate(90deg);
+                bottom: 0;
+            }
+
+
+
+
+
+
+
+
+
             .main-nav {
                 justify-content: space-around;
                 text-transform: uppercase;
+                height: 140px;
             }
             .hidden-title {
                 visibility: hidden;
@@ -48,10 +128,6 @@ const Header = (props) => (
                 position: absolute;
                 right: 70px;
                 top: 30px;
-            }
-            
-            .logo-rosto {
-                position: absolute;
             }
         `}</style>
     </nav>

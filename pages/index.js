@@ -35,7 +35,7 @@ export default function Index() {
                     <div className="container">
                         <div className="row banner-content">
                             <div className="col banner-left-content">
-                                <img src="static/Ilustracao.png" alt="Desenho de crianças estudando" width="522px" height="411px" />
+                                <img src="static/Ilustracao.png" alt="Desenho de crianças estudando" width="532px" height="441px" />
                             </div>
 
                             <div className="col banner-right-content">
@@ -120,19 +120,10 @@ export default function Index() {
                     font-size: 1.1em;
                 }
                 .banner {
-                    font-family: 'Itim', cursive;
                     background: url('static/BG_bannerCenario.png');
-                }
-                .banner-content {
-                    height: 588px;
-                    align-items: center;
-                }
-                .banner-left-content {
-                    margin-top: 150px;
                 }
                 .banner-right-content {
                     left: 70px;
-                    top: -70px;
                 }
                 .banner-right-content h2 {
                     text-transform: uppercase;
@@ -141,8 +132,8 @@ export default function Index() {
                 }
                 .play-button {
                     position: relative;
-                    top: 20px;
-                    left: -20px;
+                    top: 25px;
+                    left: -10px;
                     cursor: pointer;
                 }
                 .outer-card {
@@ -151,8 +142,8 @@ export default function Index() {
                     align-items: center;
                     position: absolute;
                     z-index: 2;
-                    width: 100px;
-                    height: 100px;
+                    width: 90px;
+                    height: 90px;
                     background: #fff;
                     -webkit-box-shadow: 0px 0px 5px 2px rgba(50, 50, 50, 1);
                     -moz-box-shadow:    0px 0px 5px 2px rgba(50, 50, 50, 1);
@@ -162,8 +153,8 @@ export default function Index() {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: 92px;
-                    height: 92px;
+                    width: 82px;
+                    height: 82px;
                     border: 3px solid #CA8C40;
                     background: #ffb248;
                     border-radius: 50px;
@@ -173,7 +164,6 @@ export default function Index() {
                 }
                 .play-card {
                     position: absolute;
-                    top: 3px;
                     width: 153px;
                     height: 64px;
                     border-radius: 20px;
@@ -182,8 +172,8 @@ export default function Index() {
                 }
                 .play-card-outer {
                     position: relative;
-                    top: 15px;
-                    left: 70px;
+                    top: 12px;
+                    left: 60px;
                     width: 160px;
                     height: 70px;
                 }

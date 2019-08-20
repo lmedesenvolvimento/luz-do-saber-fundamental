@@ -121,21 +121,22 @@ a {
 
 .banner {
     font-family: 'Itim', cursive;
-    height: 588px;
-}
-
-.banner-content {
-    height: 588px;
-    align-items: center;
+    height: 580px;
 }
 
 .banner-left-content {
-    margin-top: 150px;
+    margin-top: 130px;
+    text-align: right;
 }
+
+.banner-content {
+    height: 580px;
+    align-items: center;
+}
+
 
 .banner-right-content {
     left: 70px;
-    top: -70px;
 }
 
 .banner-right-content h2 {
@@ -144,8 +145,26 @@ a {
     color: #25a19c;
 }
 
+/* LOGO */
+
+.logo {
+    display: flex;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+}
+.logo-rosto {
+    position: absolute;
+    width: 210px;
+}
+.logo-raio {
+    z-index: -1;
+    position: absolute;
+    width: 210px;
+}
+
 /* 
-    GLOBAL NAVBAR STYLES
+    NAVBAR STYLES
 */
 .menu {
     position: absolute;
@@ -166,19 +185,19 @@ a {
 
 .menu li a { color:#333; text-decoration:none; display:block; }
 
-.menu .inicio { border: 1px solid transparent; border-top: 3px solid #FFB151; }
+.menu .inicio { border: 1px solid transparent; border-top: 4px solid #FFB151; transition: background-color .2s, color .2s ease-in }
 .menu .inicio:hover { background: #FFB151; color: #fff; }
-.menu .software { border: 1px solid transparent; border-top: 3px solid #F766AE; }
+.menu .software { border: 1px solid transparent; border-top: 4px solid #F766AE; transition: background-color .2s, color .2s ease-in }
 .menu .software:hover { background: #F766AE; color: #fff; }
-.menu .download { border: 1px solid transparent; border-top: 3px solid #AE67E0; }
+.menu .download { border: 1px solid transparent; border-top: 4px solid #AE67E0; transition: background-color .2s, color .2s ease-in }
 .menu .download:hover { background: #AE67E0; color: #fff; }
-.menu .tutorial { border: 1px solid transparent; border-top: 3px solid #757BFA; }
+.menu .tutorial { border: 1px solid transparent; border-top: 4px solid #757BFA; transition: background-color .2s, color .2s ease-in }
 .menu .tutorial:hover { background: #757BFA; color: #fff; }
-.menu .forum { border: 1px solid transparent; border-top: 3px solid #75C0FF; }
+.menu .forum { border: 1px solid transparent; border-top: 4px solid #75C0FF; transition: background-color .2s, color .2s ease-in }
 .menu .forum:hover { background: #75C0FF; color: #fff; }
-.menu .creditos { border: 1px solid transparent; border-top: 3px solid #50C0AA; }
+.menu .creditos { border: 1px solid transparent; border-top: 4px solid #50C0AA; transition: background-color .2s, color .2s ease-in }
 .menu .creditos:hover { background: #50C0AA; color: #fff; }
-.menu .contato { border: 1px solid transparent; border-top: 3px solid #50946D; }
+.menu .contato { border: 1px solid transparent; border-top: 4px solid #50946D; transition: background-color .2s, color .2s ease-in }
 .menu .contato:hover { background: #50946D; color: #fff; }
 
 /* 
