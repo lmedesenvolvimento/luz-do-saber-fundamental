@@ -23,33 +23,37 @@ const Header = () => (
             </div>
             <div className="row">
                 <ul className="col-sm menu">
+                    <li className="inicio selected">
                         <Link href='/' passHref>
-                            <li className="inicio selected">Início</li>
+                            <a>Início</a>
                         </Link>
-                        {/* <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/' passHref>
-                            <li className="inicio selected">Início</li>
-                        </Link> */}
-                        <Link href="/contact" passHref>
-                            <li className="software">software</li>
-                        </Link>
-                        <Link href="/contact" passHref>
-                            <li className="download">Download</li>
-                        </Link>
-                        <Link href="/contact" passHref>
-                            <li className="tutorial">Tutorial</li>
-                        </Link>
-                        <Link href="/contact" passHref>
-                            <li className="forum">Fórum</li>
-                        </Link>
-                        <Link href="/contact" passHref>
-                            <li className="creditos">Créditos</li>
-                        </Link>
+                    </li>
+                    {/* <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/' passHref>
+                        <li className="inicio selected">Início</li>
+                    </Link> */}
+                    <Link href="/contact" passHref>
+                        <li className="software">software</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="download">Download</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="tutorial">Tutorial</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="forum">Fórum</li>
+                    </Link>
+                    <Link href="/contact" passHref>
+                        <li className="creditos">Créditos</li>
+                    </Link>
+                    <li className="contato">
                         <Link href='/contact' passHref>
-                            <li className="contato">Contato</li>
+                            <a>Contato</a>
                         </Link>
-                        {/* <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/contact' passHref>
-                            <li className="contato">Contato</li>
-                        </Link> */}
+                    </li>
+                    {/* <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/contact' passHref>
+                        <li className="contato">Contato</li>
+                    </Link> */}
                 </ul>
             </div>
         </div>
