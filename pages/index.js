@@ -19,23 +19,22 @@ export default function Index() {
 
                                 <span className="section-text">Clique no botão abaixo para iniciar</span>
 
-                                <div className="play-button">
-                                    <div>
-                                        <Link href="http://app.luzdosaber.virtual.ufc.br" passHref>
-                                            <a target="_blank">
+                                <Link href="http://app.luzdosaber.virtual.ufc.br/" passHref>
+                                    <a target="_blank">
+                                        <div className="play-button">
+                                            <div>
                                                 <div className="outer-card rounded-circle shadow-sm">
                                                     <div className="inner-card">
                                                         <img src="static/btn_iniciar.svg" alt="" width="30px;" />
                                                     </div>
                                                 </div>
-                                            </a>
-                                        </Link>
-
-                                        <div className="search-bar-itens shadow-lg play-card play-card-outer">
-                                            <button className="btn search-input form-input-font btn-font-orange play-card">Iniciar</button>
+                                                <div className="search-bar-itens shadow-lg play-card play-card-outer">
+                                                    <button className="btn search-input form-input-font btn-font-orange play-card">Iniciar</button>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -74,10 +73,10 @@ export default function Index() {
 
                         <div className="row form">
                             <div className="search-bar-itens search-input-container shadow-sm">
-                                <input className="search-input form-input-font" type="text" name="search" id="search" placeholder="ESCREVA SEU NOME" />
+                                <input className="search-input form-input-font" type="text" name="search" placeholder="ESCREVA SEU NOME" />
                             </div>
                             <div className="search-bar-itens search-input-container search-input-container-large shadow-sm">
-                                <input className="search-input search-input-large form-input-font" type="text" name="search" id="search" placeholder="ESCREVA SEU E-MAIL" />
+                                <input className="search-input search-input-large form-input-font" type="text" name="search" placeholder="ESCREVA SEU E-MAIL" />
                             </div>
                             <div className="search-bar-itens btn-container shadow-sm">
                                 <button className="btn search-input btn-font-dark form-input-font">Enviar</button>
@@ -115,7 +114,7 @@ export default function Index() {
                     font-weight: bold;
                     color: #25a19c;
                 }
-                .play-button {
+                {/* .play-button {
                     position: relative;
                     top: 20px;
                     left: -20px;
@@ -130,7 +129,7 @@ export default function Index() {
                     width: 100px;
                     height: 100px;
                     background: #fff;
-                }
+                } */}
                 .inner-card {
                     display: flex;
                     justify-content: center;
@@ -152,6 +151,7 @@ export default function Index() {
                     height: 60px;
                     border-radius: 20px;
                     font-size: 1.2em;
+                    cursor: pointer;
                 }
                 .play-card-outer {
                     width: 160px;

@@ -10,7 +10,7 @@ const Header = () => (
         </div>
         </div>
         <div className="col-sm-8 nav-search">
-            <div className="row search-bar">
+            {/* <div className="row search-bar">
                 <div className="search-bar-itens search-input-container shadow-sm">
                     <input className="search-input form-input-font" type="text" name="search" id="search" placeholder="O QUE VOCÊ PROCURA?" />
                 </div>
@@ -20,7 +20,7 @@ const Header = () => (
                 <div className="search-bar-itens btn-container shadow-sm">
                     <button className="btn search-input btn-font-dark form-input-font">Instalar</button>
                 </div>
-            </div>
+            </div> */}
             <div className="row">
                 <ul className="col-sm menu">
                     <li className="inicio selected">
@@ -31,7 +31,7 @@ const Header = () => (
                     {/* <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/' passHref>
                         <li className="inicio selected">Início</li>
                     </Link> */}
-                    <Link href="/contact" passHref>
+                    {/* <Link href="/contact" passHref>
                         <li className="software">software</li>
                     </Link>
                     <Link href="/contact" passHref>
@@ -50,10 +50,12 @@ const Header = () => (
                         <Link href='/contact' passHref>
                             <a>Contato</a>
                         </Link>
+                    </li> */}
+                    <li className="contato">
+                        <Link href='/contact' passHref>
+                            <a>Contato</a>
+                        </Link>
                     </li>
-                    {/* <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/contact' passHref>
-                        <li className="contato">Contato</li>
-                    </Link> */}
                 </ul>
             </div>
         </div>
