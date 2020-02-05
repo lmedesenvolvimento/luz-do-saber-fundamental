@@ -28,29 +28,21 @@ const Header = () => (
                             <a>Início</a>
                         </Link>
                     </li>
-                    {/* <Link href='https://lmedesenvolvimento.github.io/luz-do-saber-home-page/' passHref>
-                        <li className="inicio selected">Início</li>
-                    </Link> */}
-                    {/* <Link href="/contact" passHref>
-                        <li className="software">software</li>
+                    <Link href="/contact" passHref>
+                        <li className="software disabled">software</li>
                     </Link>
                     <Link href="/contact" passHref>
-                        <li className="download">Download</li>
+                        <li className="download disabled">Download</li>
                     </Link>
                     <Link href="/contact" passHref>
-                        <li className="tutorial">Tutorial</li>
+                        <li className="tutorial disabled">Tutorial</li>
                     </Link>
                     <Link href="/contact" passHref>
-                        <li className="forum">Fórum</li>
+                        <li className="forum disabled">Fórum</li>
                     </Link>
                     <Link href="/contact" passHref>
-                        <li className="creditos">Créditos</li>
+                        <li className="creditos disabled">Créditos</li>
                     </Link>
-                    <li className="contato">
-                        <Link href='/contact' passHref>
-                            <a>Contato</a>
-                        </Link>
-                    </li> */}
                     <li className="contato">
                         <Link href='/contact' passHref>
                             <a>Contato</a>
@@ -102,21 +94,26 @@ const Header = () => (
 
             .menu .inicio { border: 1px solid transparent; border-top: 3px solid #FFB151; }
             .menu .inicio:hover { background: #FFB151; color: #fff; }
-            .menu .software { border: 1px solid transparent; border-top: 3px solid #F766AE; }
-            .menu .software:hover { background: #F766AE; color: #fff; }
-            .menu .download { border: 1px solid transparent; border-top: 3px solid #AE67E0; }
-            .menu .download:hover { background: #AE67E0; color: #fff; }
-            .menu .tutorial { border: 1px solid transparent; border-top: 3px solid #757BFA; }
-            .menu .tutorial:hover { background: #757BFA; color: #fff; }
-            .menu .forum { border: 1px solid transparent; border-top: 3px solid #75C0FF; }
-            .menu .forum:hover { background: #75C0FF; color: #fff; }
-            .menu .creditos { border: 1px solid transparent; border-top: 3px solid #50C0AA; }
-            .menu .creditos:hover { background: #50C0AA; color: #fff; }
+            .menu .software { border: 1px solid transparent; border-top: 3px solid #d3d3d3; }
+            {/* .menu .software:hover { background: #F766AE; color: #fff; } */}
+            .menu .download { border: 1px solid transparent; border-top: 3px solid #d3d3d3; }
+            {/* .menu .download:hover { background: #AE67E0; color: #fff; } */}
+            .menu .tutorial { border: 1px solid transparent; border-top: 3px solid #d3d3d3; }
+            {/* .menu .tutorial:hover { background: #757BFA; color: #fff; } */}
+            .menu .forum { border: 1px solid transparent; border-top: 3px solid #d3d3d3; }
+            {/* .menu .forum:hover { background: #75C0FF; color: #fff; } */}
+            .menu .creditos { border: 1px solid transparent; border-top: 3px solid #d3d3d3; }
+            {/* .menu .creditos:hover { background: #50C0AA; color: #fff; } */}
             .menu .contato { border: 1px solid transparent; border-top: 3px solid #50946D; }
             .menu .contato:hover { background: #50946D; color: #fff; }
 
             .selected {
                 background: #FFB151;
+            }
+
+            .disabled {
+                background: #d3d3d3; color: #fff;
+                border-top: 3px solid #d3d3d3;
             }
 
             .logo-rosto {

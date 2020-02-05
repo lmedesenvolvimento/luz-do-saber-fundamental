@@ -29,12 +29,12 @@ export default function Contact() {
                                         </div>
 
                                         <div className="search-bar-itens search-input-container shadow-sm">
-                                            <input className="search-input form-input-font" type="text" name="search" id="search" placeholder="TELEFONE" />
+                                            <input className="search-input form-input-font" type="text" name="search" placeholder="TELEFONE" />
                                         </div>
                                     </div>
 
                                     <div className="search-bar-itens search-input-container search-input-container-xlarge  shadow-sm">
-                                        <input className="search-input search-input-xlarge form-input-font" type="text" name="search" id="search" placeholder="EMAIL" />
+                                        <input className="search-input search-input-xlarge form-input-font" type="text" name="search" placeholder="EMAIL" />
                                     </div>
 
                                     <div className="search-bar-itens outer-card shadow-sm">
