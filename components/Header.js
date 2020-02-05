@@ -10,17 +10,17 @@ const Header = () => (
         </div>
         </div>
         <div className="col-sm-8 nav-search">
-            {/* <div className="row search-bar">
+            <div className="row search-bar">
                 <div className="search-bar-itens search-input-container shadow-sm">
                     <input className="search-input form-input-font" type="text" name="search" id="search" placeholder="O QUE VOCÊ PROCURA?" />
                 </div>
                 <form className="search-bar-itens btn-container shadow-sm" action="https://luz-do-saber-staging.herokuapp.com/#/" target="_blank">
-                    <button className="btn search-input btn-font-light form-input-font">Entrar</button>
+                    <button className="btn search-input btn-font-light form-input-font">Editar</button>
                 </form>
                 <div className="search-bar-itens btn-container shadow-sm">
                     <button className="btn search-input btn-font-dark form-input-font">Instalar</button>
                 </div>
-            </div> */}
+            </div>
             <div className="row">
                 <ul className="col-sm menu">
                     <li className="inicio selected">
