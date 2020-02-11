@@ -14,7 +14,7 @@ export default function Index() {
                     <div className="container">
                         <div className="row banner-content">
                             <div className="col banner-left-content">
-                                <img src="static/Ilustracao.png" alt="Desenho de crianças estudando" width="522px" height="411px" />
+                                <img src="static/home-illustration.png" alt="Desenho de crianças estudando" width="800px" height="561px" />
                             </div>
 
                             <div className="col banner-right-content">
@@ -101,18 +101,8 @@ export default function Index() {
                     font-family: 'Itim', cursive;
                     background: url('static/BG_bannerCenario.png');
                 }
-                .banner-content {
-                    height: 588px;
-                    align-items: center;
-                }
-                .banner-left-content {
-                    margin-top: 150px;
-                }
-                {/* .banner-right-content {
-                    left: 70px;
-                    top: -70px;
-                }
-                .banner-right-content h2 {
+                
+                {/*.banner-right-content h2 {
                     text-transform: uppercase;
                     font-weight: bold;
                     color: #25a19c;

@@ -312,11 +312,20 @@ a {
     /* 
     ** BASE BANNER
     */
+    .banner-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 588px;
+    }
+    .banner-left-content {
+        top: -100px;
+        left: 0;
+    }
     .banner-right-content {
-        position: absolute;
         width: auto;
-        top: 160px;
-        right: 150px;
+        top: -130px;
+        right: 40px;
         text-align: left;
         color: #fff;
         text-transform: uppercase;
@@ -331,5 +340,8 @@ a {
         font-size: 1.2em;
         display: inline-block;
         padding: 1.5em 0;
+    }
+    .play-button {
+        top: 235px;
     }
 }
