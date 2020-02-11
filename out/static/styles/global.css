@@ -320,7 +320,7 @@ a {
     }
     .banner-left-content {
         top: -100px;
-        left: 0;
+        right: 60px;
     }
     .banner-right-content {
         width: auto;
