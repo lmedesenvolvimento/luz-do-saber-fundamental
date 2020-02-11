@@ -33,7 +33,7 @@ const Footer = () => (
         <span className="copyright"><a href="">Termos de uso e política de privacidade</a> | &#169; 2019 Luz do Saber. Todos os direitos reservados.</span>
 
         <style jsx>{`
-        .footer {
+            .footer {
                 font-family: 'Itim', cursive;
                 margin-top: 280px;
                 text-align: center;
@@ -73,6 +73,7 @@ const Footer = () => (
             .logo {
                 width: 160px;
                 height: 50px;
+                margin-bottom: 15px;
             }
 
             .funcap {

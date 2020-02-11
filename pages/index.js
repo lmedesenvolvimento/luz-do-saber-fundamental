@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Header from "../components/Header";
 import BaseLayout from '../components/Base-Layout';
 import Footer from "../components/Footer";
 
@@ -6,6 +7,8 @@ export default function Index() {
     return (
         <div>
             <BaseLayout>
+
+                <Header selected="inicio" />
 
                 <section className="banner full-width">
                     <div className="container">
@@ -105,7 +108,7 @@ export default function Index() {
                 .banner-left-content {
                     margin-top: 150px;
                 }
-                .banner-right-content {
+                {/* .banner-right-content {
                     left: 70px;
                     top: -70px;
                 }
@@ -113,7 +116,7 @@ export default function Index() {
                     text-transform: uppercase;
                     font-weight: bold;
                     color: #25a19c;
-                }
+                } */}
                 {/* .play-button {
                     position: relative;
                     top: 20px;
@@ -164,7 +167,7 @@ export default function Index() {
                 }
                 .section-head {
                     text-align: center;
-                    padding-top: 50px;
+                    padding-top: 30px;
                 }
                 .white-header {
                     color: #fff;
@@ -172,10 +175,6 @@ export default function Index() {
                 .newsletter-call {
                     font-size: 1.5em;
                     color: #ffeac1;
-                }
-                .atividades-content {
-                    text-align: center;
-                    padding: 60px;
                 }
                 .atividades-content > img {
                     margin-bottom: 25px;
@@ -192,13 +191,10 @@ export default function Index() {
                 }
                 .form {
                     justify-content: center;
-                    padding: 50px;
+                    padding: 10px;
                 }
                 .search-input-container {
                     margin-left: 20px;
-                }
-                .search-input-container-large {
-                    width: 349px;
                 }
                 .search-input {
                     left: 6px;
