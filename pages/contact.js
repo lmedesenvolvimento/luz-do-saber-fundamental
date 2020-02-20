@@ -1,3 +1,4 @@
+import Header from "../components/Header";
 import BaseLayout from "../components/Base-Layout";
 import Footer from '../components/Footer';
 
@@ -5,6 +6,9 @@ export default function Contact() {
     return (
         <div>
             <BaseLayout>
+
+                <Header selected="contact" />
+
                 <section className="banner full-width">
                     <div className="pagination">
                         <span className="pagination-item">principal</span> <span className="pagination-item">/</span> <span className="pagination-item">contato</span>
@@ -61,7 +65,7 @@ export default function Contact() {
                     display: flex;
                     align-items: center;
                     position: absolute;
-                    background: #50946D;
+                    background: #FFB151;
                     border-radius: 0;
                     width: 100%;
                     height: 50px;
@@ -78,48 +82,52 @@ export default function Contact() {
                     background: url('static/BG_bannerCenario.png');
                 }
 
-                .form-control {
-                    outline: 1px solid orange;
+                .banner-right-content {
+                    position: absolute;
+                    width: auto;
+                    right: 115px;
+                    top: 100px;
+                    text-align: left;
+                    color: #fff;
+                    text-transform: uppercase;
                 }
-                .shadow-textarea textarea.form-control::placeholder {
-                    font-weight: 300;
-                }
-                .shadow-textarea textarea.form-control {
-                    padding-left: 0.8rem;
+                .banner-right-content > h2 {
+                    font-size: 1.7em;
                 }
 
+                .form-head {
+                    width: 100%;
+                    padding: 0 20px;
+                }
+                .shadow-textarea textarea::placeholder {
+                    font-weight: 300;
+                }
                 .outer-card {
                     display: flex;
                     justify-content: center;
-                    align-itens: center;
+                    align-items: center;
                     width: fit-content;
+                    height: fit-content;
                     padding: 5px;
-                    margin: 10px 0 20px 0;
-                    border-radius: 30px;
+                    margin: 15px 0 20px 0;
+                    border-radius: 20px;
                     background: #fff;
+                    width: 505px;
                 }
-
                 .inner-card {
                     border: 1px solid #DEDEDE;
-                    border-radius: 30px;
-                    padding: 10px 15px 10px 15px;;
+                    border-radius: 20px;
+                    padding: 10px 15px 10px 15px;
                     outline: none;
                 }
-
-                .banner-right-content {
-                    display: flex;
-                    flex-direction: column;
-                    top: 0;
-                }
-
-                .banner-right-content h2 {
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    color: #25a19c;
+                .btn-container {
+                    top: 160px;
+                    left: 386px;
                 }
 
                 .search-input {
                     left: 7px;
+                    top: 5px;
                 }
 
                 .search-input-large {
@@ -135,6 +143,46 @@ export default function Contact() {
                     font-family: 'Itim', cursive;
                     margin-top: 300px;
                     text-align: center;
+                }
+
+                @media (min-width: 320px) and (max-width: 1199px) {
+                    .full-width {
+                        height: 590px;
+                    }
+                    .banner-right-content {
+                        position: absolute;
+                        top: 100px;
+                        right: 0;
+                        text-align: left;
+                        color: #fff;
+                        text-transform: uppercase;
+                        left: 5%;
+                    }
+                    .banner-right-content h2 {
+                        font-size: 1.5em;
+                    }
+                    .form-head > h2 {
+                        font-size: 1.2em;
+                    }
+
+                    .search-input-container {
+                        margin-top: 7px;
+                    }
+
+                    .form > .search-bar-itens {
+                        margin: 7px 0;
+                    }
+
+                    .outer-card {
+                        width: 80%;
+                    }
+                    .inner-card {
+                        width: 100%;
+                    }
+
+                    .btn-container {
+                        left: 0;
+                    }
                 }
             `}</style>
         </div>
