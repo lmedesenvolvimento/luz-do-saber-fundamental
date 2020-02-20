@@ -54,7 +54,6 @@ a {
 
 .search-input {
     position: absolute;
-    left: -18px;
     top: 5px;
     width: 235px;
     padding: 4px 10px 4px 10px;
@@ -64,7 +63,7 @@ a {
 }
 
 .search-input-large {
-    width: 335px;
+    width: 235px;
 }
 
 .search-input-xlarge {
@@ -86,7 +85,11 @@ a {
 }
 
 .btn {
+    position: absolute;
+    top: 3px;
+    left: 5px;
     border: 2px solid #5A9F9B;
+    border-radius: 20px;
     width: 90px;
 }
 
@@ -110,11 +113,6 @@ a {
     BASE BANNER
 */
 
-.section-text {
-    color: #AEAEAE;
-    font-size: 1.1em;
-}
-
 .banner {
     font-family: 'Itim', cursive;
     height: 588px;
@@ -129,9 +127,55 @@ a {
     margin-top: 150px;
 }
 
-.banner-right-content {
-    left: 70px;
-    top: -70px;
+.atividades {
+    position: relative;
+    font-family: 'Itim', cursive;
+    padding-top: 588px;
+}
+
+.atividades-content {
+    text-align: center;
+    padding: 60px;
+}
+.atividades-content > img {
+    max-width: 156px;
+    margin-bottom: 25px;
+}
+.atividades-content > p {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #555555;
+}
+
+.section-head {
+    text-align: center;
+    padding-top: 50px;
+}
+.form {
+    justify-content: center;
+    padding: 20px;
+}
+.play-button {
+    position: absolute;
+    width: 235px;
+    height: 100px;
+    top: 190px;
+    left: calc(50% - 10px);
+    cursor: pointer;
+    z-index: 5;
+}
+.outer-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+}
+.play-card:hover {
+    color: #ffb248;
 }
 
 .banner-right-content h2 {
@@ -161,4 +205,143 @@ a {
 }
 .play-card:hover {
     color: #ffb248;
+}
+
+@media (min-width: 320px) and (max-width: 1199px) {
+    /* 
+    ** BASE BANNER
+    */
+    .banner {
+        font-family: 'Itim', cursive;
+        /* height: 388px; */
+    }
+    
+    .banner-content {
+        height: 388px;
+        align-items: center;
+    }
+    
+    .banner-left-content {
+        /* margin-top: 150px; */
+        display: none;
+    }
+
+    .banner-right-content {
+        position: absolute;
+        /* width: auto; */
+        right: 0;
+        top: 55px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .banner-right-content > .section-text {
+        font-size: 1em;
+        display: inline-block;
+        padding: 1.2em 0;
+    }
+    .play-button {
+        position: absolute;
+        width: 235px;
+        height: 100px;
+        top: 215px;
+        left: calc(50% - 110px);
+        cursor: pointer;
+    }
+    /* 
+    ** FIM BANNER
+    */
+
+    /* 
+    ** ATIVIDADES
+    */
+    .atividades {
+        position: relative;
+        font-family: 'Itim', cursive;
+        padding-top: 388px;
+    }
+    .atividades-content {
+        padding: 30px;
+    }
+    .atividades-content > .section-text {
+        display: none;
+    }
+    /* 
+    ** FIM ATIVIDADES
+    */
+
+    /* 
+    ** NEWS
+    */
+    .section-head {
+        padding-top: 20px;
+    }
+    .newsletter-call {
+        display: none;
+    }
+    .search-input-container,
+    .search-input-container-large {
+        width: 226px;
+        margin-left: 0;
+    }
+    .search-input {
+        width: 212px;
+    }
+    .btn-container > .btn {
+        width: 90px;
+    }
+    .form {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 16px;
+    }
+    .form > .search-bar-itens {
+        margin: 8px;
+    }
+
+    /* 
+        FOOTER
+    */
+    .display-content > div {
+        width: 120px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* 
+    ** BASE BANNER
+    */
+    .banner-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 588px;
+    }
+    .banner-left-content {
+        top: -100px;
+        right: 60px;
+    }
+    .banner-right-content {
+        width: auto;
+        top: -130px;
+        right: 40px;
+        text-align: left;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .banner-right-content > h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #25a19c;
+        font-size: 1.7em;
+    }
+    .banner-right-content > .section-text {
+        font-size: 1.2em;
+        display: inline-block;
+        padding: 1.5em 0;
+    }
+    .play-button {
+        top: 235px;
+    }
 }
