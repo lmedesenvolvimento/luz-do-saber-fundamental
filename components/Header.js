@@ -1,5 +1,5 @@
-import Link from "next/link";
 import ReactDOM from "react-dom";
+import Link from "./Link";
 
 class Header extends React.Component {
   constructor(props) {
