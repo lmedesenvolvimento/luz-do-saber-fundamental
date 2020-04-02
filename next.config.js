@@ -10,7 +10,7 @@ module.exports = {
         '/contact': { page: '/contact' },
     }),
     publicRuntimeConfig: {
-        basePath: prod ? '/fundamental-luz-do-saber' : ''
+        basePath: prod ? '/luz-do-saber-fundamental' : ''
     },
-    assetPrefix: prod ? 'https://lmedesenvolvimento.github.io/fundamental-luz-do-saber/' : '',
+    assetPrefix: prod ? 'https://lmedesenvolvimento.github.io/luz-do-saber-fundamental/' : '',
 }
