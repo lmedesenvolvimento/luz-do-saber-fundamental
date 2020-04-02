@@ -17,7 +17,7 @@ export default function Contact() {
                     <div className="container">
                         <div className="row banner-content">
                             <div className="col banner-left-content">
-                                <img src="/static/ilustracao_contato.png" alt="Desenho de crianças estudando"height="411px" />
+                                <img src="static/ilustracao_contato.png" alt="Desenho de crianças estudando"height="411px" />
                             </div>
 
                             <div className="col banner-right-content">
