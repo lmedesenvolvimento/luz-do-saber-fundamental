@@ -86,9 +86,14 @@ class Header extends React.Component {
                     <a>Início</a>
                   </Link>
                 </li>
-                <Link href="/contact" passHref>
-                  <li className="software disabled">software</li>
-                </Link>
+                <li className={
+                    "projeto " +
+                    (this.props.selected === "projeto" ? "selected" : "")
+                  }>
+                    <Link href="/projeto" passHref>
+                    <a>Projeto</a>
+                    </Link>
+                </li>
                 <Link href="/contact" passHref>
                   <li className="download disabled">Download</li>
                 </Link>
@@ -175,11 +180,11 @@ class Header extends React.Component {
               background: #ffb151;
               color: #fff;
             }
-            .menu .software {
+            .menu .projeto {
               border: 1px solid transparent;
               border-top: 4px solid rgba(24, 65, 109, 0.15);
             }
-            .menu .software:hover {
+            .menu .projeto:hover {
               background: #ffb151;
               color: #fff;
             }
