@@ -7,7 +7,8 @@ module.exports = {
     exportPathMap: () => ({
         '/': { page: '/' },
         '/projeto': { page: '/projeto' },
-        '/contact': { page: '/contact' },
+        '/contato': { page: '/contact' },
+        '/download': { page: '/download' },
     }),
     publicRuntimeConfig: {
         basePath: ''

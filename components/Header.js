@@ -107,9 +107,9 @@ class Header extends React.Component {
                   Créditos
                 </HeaderItem>                
                 <HeaderItem 
-                  href="/contact" 
+                  href="/contato" 
                   selected={this.props.selected} 
-                  to="contact"
+                  to="contato"
                 >
                   Contato
                 </HeaderItem>                                

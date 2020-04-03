@@ -7,7 +7,7 @@ export default function Contact() {
         <div>
             <BaseLayout>
 
-                <Header selected="contact" />
+                <Header selected="contato" />
 
                 <section className="banner full-width">
                     <div className="pagination">
