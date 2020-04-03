@@ -53,18 +53,21 @@ class Header extends React.Component {
             </div>
             <form
               className="search-bar-itens btn-container shadow-sm"
-              action="https://luz-do-saber-staging.herokuapp.com/#/"
-              target="_blank"
-            >
+              action="https://luz-do-saber-production.herokuapp.com/#/"
+              target="_blank" >
               <button className="btn search-input btn-font-light form-input-font">
                 Editar
               </button>
             </form>
+              {/*
             <div className="search-bar-itens btn-container shadow-sm">
+
               <button className="btn search-input btn-font-dark form-input-font">
                 Instalar
               </button>
+
             </div>
+              */}
           </div>
           <div className="hamburguer-container">
             <input id="menu-hamburguer" type="checkbox" />
@@ -76,23 +79,23 @@ class Header extends React.Component {
             </label>
             <div className="row menu-container">
               <ul className="col-sm menu">
-                <HeaderItem 
-                  href="/" 
-                  selected={this.props.selected} 
+                <HeaderItem
+                  href="/"
+                  selected={this.props.selected}
                   to="inicio"
                 >
                     Início
                 </HeaderItem>
-                <HeaderItem 
-                  href="/projeto" 
-                  selected={this.props.selected} 
+                <HeaderItem
+                  href="/projeto"
+                  selected={this.props.selected}
                   to="projeto"
                 >
                     Projeto
                 </HeaderItem>
-                <HeaderItem 
-                  href="/download" 
-                  selected={this.props.selected} 
+                <HeaderItem
+                  href="/download"
+                  selected={this.props.selected}
                   to="download"
                 >
                     Downloads
@@ -100,19 +103,25 @@ class Header extends React.Component {
                 <HeaderItem to="tutorial">
                   Tutorial
                 </HeaderItem>
+                {/*
                 <HeaderItem to="forum">
                   Fórum
-                </HeaderItem>                
-                <HeaderItem to="creditos">
+                </HeaderItem>
+                */}
+                <HeaderItem
+                href="/creditos"
+                selected={this.props.selected}
+                to="creditos"
+                >
                   Créditos
-                </HeaderItem>                
-                <HeaderItem 
-                  href="/contato" 
-                  selected={this.props.selected} 
+                </HeaderItem>
+                <HeaderItem
+                  href="/contato"
+                  selected={this.props.selected}
                   to="contato"
                 >
                   Contato
-                </HeaderItem>                                
+                </HeaderItem>
               </ul>
             </div>
           </div>
@@ -492,10 +501,10 @@ function HeaderItem ({ children, href, selected, to }) {
       <li className={`${to} ${isSelected}`}>
         <HeaderLink href={href}>
           {children}
-        </HeaderLink>        
+        </HeaderLink>
       </li>
       <style jsx>{
-        `          
+        `
           li {
             display: inline-block;
             padding: 10px;

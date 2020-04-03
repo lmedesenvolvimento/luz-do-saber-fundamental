@@ -25,7 +25,7 @@ export default function Contact() {
                                     <h2>Entre em Contato Conosco!</h2>
                                     <span className="title"><strong>SEDUC (ASTIN):</strong> (85) 3101-3963</span>
                                 </div>
-                                
+
                                 <form className="form">
                                     <div className="input-group">
                                         <div className="search-bar-itens search-input-container shadow-sm">
@@ -44,7 +44,7 @@ export default function Contact() {
                                     <div className="search-bar-itens outer-card shadow-sm">
                                         <textarea className="inner-card" name="mensagem" id="mensagem" cols="50" rows="4" placeholder="ESCREVA SUA MENSAGEM"></textarea>
                                     </div>
-                                    
+
                                     <div className="search-bar-itens btn-container shadow-sm">
                                         <button className="btn search-input btn-font-dark form-input-font">Enviar</button>
                                     </div>
