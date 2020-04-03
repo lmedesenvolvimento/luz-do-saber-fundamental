@@ -1,4 +1,3 @@
-npm run export
 touch docs/CNAME
 echo \"fundamental.luzdosaber.virtual.ufc.br\" >> docs/CNAME
 git add docs/ 
