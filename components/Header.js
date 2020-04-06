@@ -100,10 +100,10 @@ class Header extends React.Component {
                 >
                     Downloads
                 </HeaderItem>
-                <HeaderItem to="tutorial">
+              {/*  <HeaderItem to="tutorial">
                   Tutorial
                 </HeaderItem>
-                {/*
+
                 <HeaderItem to="forum">
                   Fórum
                 </HeaderItem>
