@@ -121,324 +121,276 @@ var _jsxFileName = "/home/juniorgomes/Documents/luz-do-saber/portais/luz-do-sabe
 
 var Footer = function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("footer", {
-    className: "jsx-270393191" + " " + "footer full-width",
+    className: "jsx-3770177620" + " " + "footer full-width",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 2
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-270393191" + " " + "row display-content social-icons",
+    className: "jsx-3770177620" + " " + "row display-content social-icons",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
-    className: "jsx-270393191",
+    href: "https://www.instagram.com/luzdosaberapp",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/icone_google_reader.svg",
+    src: "static/instagram.png",
     alt: "",
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
-    className: "jsx-270393191",
+    href: "https://pt-br.facebook.com/luzdosaber",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/icone_twitter.svg",
-    alt: "",
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/icone_youtube.svg",
-    alt: "",
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     src: "static/icone_facebook.svg",
     alt: "",
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-270393191" + " " + "row display-content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "http://lme.ufc.br/",
-    target: "_blank",
-    className: "jsx-270393191",
+    className: "jsx-3770177620" + " " + "row display-content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-270393191",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "http://lme.ufc.br/",
+    target: "_blank",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/lme.png",
-    alt: "",
-    className: "jsx-270393191" + " " + "logo",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "static/lme.png",
+    alt: "",
+    className: "jsx-3770177620" + " " + "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "http://portal.virtual.ufc.br/",
     target: "_blank",
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/ufc-virtual.png",
-    alt: "",
-    className: "jsx-270393191" + " " + "logo",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "static/ufc-virtual.png",
+    alt: "",
+    className: "jsx-3770177620" + " " + "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "http://www.ufc.br/",
     target: "_blank",
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/ufc.png",
-    alt: "",
-    className: "jsx-270393191" + " " + "logo",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "static/ufc.png",
+    alt: "",
+    className: "jsx-3770177620" + " " + "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://www.funcap.ce.gov.br/programas-de-auxilio/programa-cientista-chefe/",
     target: "_blank",
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/cientista-chefe-azul.png",
-    alt: "",
-    className: "jsx-270393191" + " " + "logo",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "static/cientista-chefe-azul.png",
+    alt: "",
+    className: "jsx-3770177620" + " " + "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://www.ceara.gov.br/",
     target: "_blank",
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/governo.png",
-    alt: "",
-    className: "jsx-270393191" + " " + "logo",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "static/governo.png",
+    alt: "",
+    className: "jsx-3770177620" + " " + "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://www.fortaleza.ce.gov.br/",
     target: "_blank",
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/prefeitura.png",
-    alt: "",
-    className: "jsx-270393191" + " " + "logo",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "static/prefeitura.png",
+    alt: "",
+    className: "jsx-3770177620" + " " + "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://www.funcap.ce.gov.br/",
     target: "_blank",
-    className: "jsx-270393191",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/funcap.png",
-    alt: "",
-    className: "jsx-270393191" + " " + "logo funcap",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
     },
     __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-270393191" + " " + "copyright",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "static/funcap.png",
+    alt: "",
+    className: "jsx-3770177620" + " " + "logo funcap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 46
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3770177620" + " " + "copyright",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://luzdosaber.seduc.ce.gov.br/politica/index.php",
     target: "_blank",
-    className: "jsx-270393191",
+    className: "jsx-3770177620",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 51
     },
     __self: this
   }, "Termos de uso e pol\xEDtica de privacidade"), " | \xA9 2019 Luz do Saber. Todos os direitos reservados."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "270393191",
+    id: "3770177620",
     __self: this
-  }, ".footer.jsx-270393191{font-family:'Itim',cursive;margin-top:280px;text-align:center;}.display-content.jsx-270393191{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-bottom:20px;}.display-content.jsx-270393191 a.jsx-270393191{margin-left:30px;margin-right:30px;}div.jsx-270393191>img.jsx-270393191{max-width:100%;height:auto;}ul.jsx-270393191 li.jsx-270393191{display:inline-block;padding:5px;}.social-icons.jsx-270393191{margin-top:30px;}.copyright.jsx-270393191{font-size:0.8em;text-transform:uppercase;display:inline-block;margin:30px;}.logo.jsx-270393191{width:160px;height:50px;margin-bottom:15px;}.funcap.jsx-270393191{width:120px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2p1bmlvcmdvbWVzL0RvY3VtZW50cy9sdXotZG8tc2FiZXIvcG9ydGFpcy9sdXotZG8tc2FiZXItZnVuZGFtZW50YWwvY29tcG9uZW50cy9Gb290ZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbURvQixBQUk2QyxBQU1mLEFBTUksQUFJRixBQUtNLEFBS0wsQUFJQSxBQU9KLEFBTUEsWUFMQSxBQU1oQixHQTNCZ0IsQ0FVaEIsQUFJNkIsQ0FsQlAsSUFTTixHQWlCTyxHQXRDRixBQWlCckIsTUFLQSxFQVRBLE1Ba0J5QixFQVF6QixDQXRDc0Isa0JBQ3RCLEFBOEJnQixZQTFCVyxBQTJCM0IsbUdBMUJ1Qiw2RkFDQyxvQkFDeEIiLCJmaWxlIjoiL2hvbWUvanVuaW9yZ29tZXMvRG9jdW1lbnRzL2x1ei1kby1zYWJlci9wb3J0YWlzL2x1ei1kby1zYWJlci1mdW5kYW1lbnRhbC9jb21wb25lbnRzL0Zvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IEZvb3RlciA9ICgpID0+IChcbiAgICA8Zm9vdGVyIGNsYXNzTmFtZT1cImZvb3RlciBmdWxsLXdpZHRoXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93IGRpc3BsYXktY29udGVudCBzb2NpYWwtaWNvbnNcIj5cbiAgICAgICAgICAgIDx1bD5cbiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj1cIlwiPjxpbWcgc3JjPVwic3RhdGljL2ljb25lX2dvb2dsZV9yZWFkZXIuc3ZnXCIgYWx0PVwiXCIgLz48L2E+PC9saT5cbiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj1cIlwiPjxpbWcgc3JjPVwic3RhdGljL2ljb25lX3R3aXR0ZXIuc3ZnXCIgYWx0PVwiXCIgLz48L2E+PC9saT5cbiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj1cIlwiPjxpbWcgc3JjPVwic3RhdGljL2ljb25lX3lvdXR1YmUuc3ZnXCIgYWx0PVwiXCIgLz48L2E+PC9saT5cbiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj1cIlwiPjxpbWcgc3JjPVwic3RhdGljL2ljb25lX2ZhY2Vib29rLnN2Z1wiIGFsdD1cIlwiIC8+PC9hPjwvbGk+XG4gICAgICAgICAgICA8L3VsPlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdyBkaXNwbGF5LWNvbnRlbnRcIj5cbiAgICAgICAgICA8YSBocmVmPVwiaHR0cDovL2xtZS51ZmMuYnIvXCIgdGFyZ2V0PVwiX2JsYW5rXCI+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJsb2dvXCIgc3JjPVwic3RhdGljL2xtZS5wbmdcIiBhbHQ9XCJcIiAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2E+XG4gICAgICAgIDxhIGhyZWY9XCJodHRwOi8vcG9ydGFsLnZpcnR1YWwudWZjLmJyL1wiIHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwibG9nb1wiIHNyYz1cInN0YXRpYy91ZmMtdmlydHVhbC5wbmdcIiBhbHQ9XCJcIiAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2E+XG4gICAgICAgIDxhIGhyZWY9XCJodHRwOi8vd3d3LnVmYy5ici9cIiB0YXJnZXQ9XCJfYmxhbmtcIj5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICA8aW1nIGNsYXNzTmFtZT1cImxvZ29cIiBzcmM9XCJzdGF0aWMvdWZjLnBuZ1wiIGFsdD1cIlwiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvYT5cbiAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vd3d3LmZ1bmNhcC5jZS5nb3YuYnIvcHJvZ3JhbWFzLWRlLWF1eGlsaW8vcHJvZ3JhbWEtY2llbnRpc3RhLWNoZWZlL1wiIHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwibG9nb1wiIHNyYz1cInN0YXRpYy9jaWVudGlzdGEtY2hlZmUtYXp1bC5wbmdcIiBhbHQ9XCJcIiAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2E+XG4gICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5jZWFyYS5nb3YuYnIvXCIgdGFyZ2V0PVwiX2JsYW5rXCI+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJsb2dvXCIgc3JjPVwic3RhdGljL2dvdmVybm8ucG5nXCIgYWx0PVwiXCIgLz5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9hPlxuICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cuZm9ydGFsZXphLmNlLmdvdi5ici9cIiB0YXJnZXQ9XCJfYmxhbmtcIj5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICA8aW1nIGNsYXNzTmFtZT1cImxvZ29cIiBzcmM9XCJzdGF0aWMvcHJlZmVpdHVyYS5wbmdcIiBhbHQ9XCJcIiAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2E+XG4gICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5mdW5jYXAuY2UuZ292LmJyL1wiIHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwibG9nbyBmdW5jYXBcIiBzcmM9XCJzdGF0aWMvZnVuY2FwLnBuZ1wiIGFsdD1cIlwiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvYT5cbiAgICAgIDwvZGl2PlxuXG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImNvcHlyaWdodFwiPjxhIGhyZWY9XCJodHRwczovL2x1emRvc2FiZXIuc2VkdWMuY2UuZ292LmJyL3BvbGl0aWNhL2luZGV4LnBocFwiIHRhcmdldD1cIl9ibGFua1wiPlRlcm1vcyBkZSB1c28gZSBwb2zDrXRpY2EgZGUgcHJpdmFjaWRhZGU8L2E+IHwgJiMxNjk7IDIwMTkgTHV6IGRvIFNhYmVyLiBUb2RvcyBvcyBkaXJlaXRvcyByZXNlcnZhZG9zLjwvc3Bhbj5cblxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICBcbiAgICAgICAgICAgIC5mb290ZXIge1xuICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnSXRpbScsIGN1cnNpdmU7XG4gICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogMjgwcHg7XG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAuZGlzcGxheS1jb250ZW50IHtcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDIwcHg7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICAuZGlzcGxheS1jb250ZW50IGEge1xuICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiAzMHB4O1xuICAgICAgICAgICAgICAgIG1hcmdpbi1yaWdodDogMzBweDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGRpdiA+IGltZyB7XG4gICAgICAgICAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgdWwgbGkge1xuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiA1cHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5zb2NpYWwtaWNvbnMge1xuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDMwcHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5jb3B5cmlnaHQge1xuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMC44ZW07XG4gICAgICAgICAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICAgICAgbWFyZ2luOiAzMHB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAubG9nbyB7XG4gICAgICAgICAgICAgICAgd2lkdGg6IDE2MHB4O1xuICAgICAgICAgICAgICAgIGhlaWdodDogNTBweDtcbiAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAuZnVuY2FwIHtcbiAgICAgICAgICAgICAgICB3aWR0aDogMTIwcHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgYH08L3N0eWxlPlxuICAgIDwvZm9vdGVyPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgRm9vdGVyO1xuIl19 */\n/*@ sourceURL=/home/juniorgomes/Documents/luz-do-saber/portais/luz-do-saber-fundamental/components/Footer.js */"));
+  }, ".footer.jsx-3770177620{font-family:'Itim',cursive;margin-top:280px;text-align:center;}.display-content.jsx-3770177620{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-bottom:20px;}.display-content.jsx-3770177620 a.jsx-3770177620{margin-left:30px;margin-right:30px;}div.jsx-3770177620>img.jsx-3770177620{max-width:100%;height:auto;}ul.jsx-3770177620 li.jsx-3770177620{display:inline-block;padding:5px;}.social-icons.jsx-3770177620{margin-top:30px;}.copyright.jsx-3770177620{font-size:0.8em;text-transform:uppercase;display:inline-block;margin:30px;}.logo.jsx-3770177620{width:160px;height:50px;margin-bottom:15px;}.funcap.jsx-3770177620{width:120px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2p1bmlvcmdvbWVzL0RvY3VtZW50cy9sdXotZG8tc2FiZXIvcG9ydGFpcy9sdXotZG8tc2FiZXItZnVuZGFtZW50YWwvY29tcG9uZW50cy9Gb290ZXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBb0RvQixBQUk2QyxBQU1mLEFBTUksQUFJRixBQUtNLEFBS0wsQUFJQSxBQU9KLEFBTUEsWUFMQSxBQU1oQixHQTNCZ0IsQ0FVaEIsQUFJNkIsQ0FsQlAsSUFTTixHQWlCTyxHQXRDRixBQWlCckIsTUFLQSxFQVRBLE1Ba0J5QixFQVF6QixDQXRDc0Isa0JBQ3RCLEFBOEJnQixZQTFCVyxBQTJCM0IsbUdBMUJ1Qiw2RkFDQyxvQkFDeEIiLCJmaWxlIjoiL2hvbWUvanVuaW9yZ29tZXMvRG9jdW1lbnRzL2x1ei1kby1zYWJlci9wb3J0YWlzL2x1ei1kby1zYWJlci1mdW5kYW1lbnRhbC9jb21wb25lbnRzL0Zvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IEZvb3RlciA9ICgpID0+IChcbiAgICA8Zm9vdGVyIGNsYXNzTmFtZT1cImZvb3RlciBmdWxsLXdpZHRoXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93IGRpc3BsYXktY29udGVudCBzb2NpYWwtaWNvbnNcIj5cbiAgICAgICAgICAgIDx1bD5cbiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj1cImh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vbHV6ZG9zYWJlcmFwcFwiPjxpbWcgc3JjPVwic3RhdGljL2luc3RhZ3JhbS5wbmdcIiBhbHQ9XCJcIiAvPjwvYT48L2xpPlxuICAgICAgICAgICAgICAgIHsvKjxsaT48YSBocmVmPVwiXCI+PGltZyBzcmM9XCJzdGF0aWMvaWNvbmVfdHdpdHRlci5zdmdcIiBhbHQ9XCJcIiAvPjwvYT48L2xpPlxuICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPVwiXCI+PGltZyBzcmM9XCJzdGF0aWMvaWNvbmVfeW91dHViZS5zdmdcIiBhbHQ9XCJcIiAvPjwvYT48L2xpPlxuICAgICAgICAgICAgICAgICovfVxuICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPVwiaHR0cHM6Ly9wdC1ici5mYWNlYm9vay5jb20vbHV6ZG9zYWJlclwiPjxpbWcgc3JjPVwic3RhdGljL2ljb25lX2ZhY2Vib29rLnN2Z1wiIGFsdD1cIlwiIC8+PC9hPjwvbGk+XG4gICAgICAgICAgICA8L3VsPlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdyBkaXNwbGF5LWNvbnRlbnRcIj5cbiAgICAgICAgICA8YSBocmVmPVwiaHR0cDovL2xtZS51ZmMuYnIvXCIgdGFyZ2V0PVwiX2JsYW5rXCI+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJsb2dvXCIgc3JjPVwic3RhdGljL2xtZS5wbmdcIiBhbHQ9XCJcIiAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2E+XG4gICAgICAgIDxhIGhyZWY9XCJodHRwOi8vcG9ydGFsLnZpcnR1YWwudWZjLmJyL1wiIHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwibG9nb1wiIHNyYz1cInN0YXRpYy91ZmMtdmlydHVhbC5wbmdcIiBhbHQ9XCJcIiAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2E+XG4gICAgICAgIDxhIGhyZWY9XCJodHRwOi8vd3d3LnVmYy5ici9cIiB0YXJnZXQ9XCJfYmxhbmtcIj5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICA8aW1nIGNsYXNzTmFtZT1cImxvZ29cIiBzcmM9XCJzdGF0aWMvdWZjLnBuZ1wiIGFsdD1cIlwiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvYT5cbiAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vd3d3LmZ1bmNhcC5jZS5nb3YuYnIvcHJvZ3JhbWFzLWRlLWF1eGlsaW8vcHJvZ3JhbWEtY2llbnRpc3RhLWNoZWZlL1wiIHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwibG9nb1wiIHNyYz1cInN0YXRpYy9jaWVudGlzdGEtY2hlZmUtYXp1bC5wbmdcIiBhbHQ9XCJcIiAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2E+XG4gICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5jZWFyYS5nb3YuYnIvXCIgdGFyZ2V0PVwiX2JsYW5rXCI+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJsb2dvXCIgc3JjPVwic3RhdGljL2dvdmVybm8ucG5nXCIgYWx0PVwiXCIgLz5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9hPlxuICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cuZm9ydGFsZXphLmNlLmdvdi5ici9cIiB0YXJnZXQ9XCJfYmxhbmtcIj5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICA8aW1nIGNsYXNzTmFtZT1cImxvZ29cIiBzcmM9XCJzdGF0aWMvcHJlZmVpdHVyYS5wbmdcIiBhbHQ9XCJcIiAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2E+XG4gICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5mdW5jYXAuY2UuZ292LmJyL1wiIHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwibG9nbyBmdW5jYXBcIiBzcmM9XCJzdGF0aWMvZnVuY2FwLnBuZ1wiIGFsdD1cIlwiIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvYT5cbiAgICAgIDwvZGl2PlxuXG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImNvcHlyaWdodFwiPjxhIGhyZWY9XCJodHRwczovL2x1emRvc2FiZXIuc2VkdWMuY2UuZ292LmJyL3BvbGl0aWNhL2luZGV4LnBocFwiIHRhcmdldD1cIl9ibGFua1wiPlRlcm1vcyBkZSB1c28gZSBwb2zDrXRpY2EgZGUgcHJpdmFjaWRhZGU8L2E+IHwgJiMxNjk7IDIwMTkgTHV6IGRvIFNhYmVyLiBUb2RvcyBvcyBkaXJlaXRvcyByZXNlcnZhZG9zLjwvc3Bhbj5cblxuICAgICAgICA8c3R5bGUganN4PntgXG5cbiAgICAgICAgICAgIC5mb290ZXIge1xuICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnSXRpbScsIGN1cnNpdmU7XG4gICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogMjgwcHg7XG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAuZGlzcGxheS1jb250ZW50IHtcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDIwcHg7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgICAuZGlzcGxheS1jb250ZW50IGEge1xuICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiAzMHB4O1xuICAgICAgICAgICAgICAgIG1hcmdpbi1yaWdodDogMzBweDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGRpdiA+IGltZyB7XG4gICAgICAgICAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgdWwgbGkge1xuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiA1cHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5zb2NpYWwtaWNvbnMge1xuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDMwcHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5jb3B5cmlnaHQge1xuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMC44ZW07XG4gICAgICAgICAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICAgICAgbWFyZ2luOiAzMHB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAubG9nbyB7XG4gICAgICAgICAgICAgICAgd2lkdGg6IDE2MHB4O1xuICAgICAgICAgICAgICAgIGhlaWdodDogNTBweDtcbiAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAuZnVuY2FwIHtcbiAgICAgICAgICAgICAgICB3aWR0aDogMTIwcHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgYH08L3N0eWxlPlxuICAgIDwvZm9vdGVyPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgRm9vdGVyO1xuIl19 */\n/*@ sourceURL=/home/juniorgomes/Documents/luz-do-saber/portais/luz-do-saber-fundamental/components/Footer.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -13029,7 +12981,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!*************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fjuniorgomes%2FDocuments%2Fluz-do-saber%2Fportais%2Fluz-do-saber-fundamental%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************************************************/
@@ -13052,5 +13004,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
