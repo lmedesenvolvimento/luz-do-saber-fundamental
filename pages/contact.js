@@ -23,10 +23,11 @@ export default function Contact() {
                             <div className="col banner-right-content">
                                 <div>
                                     <h2>Entre em Contato Conosco!</h2>
-                                    <span className="title"><strong>SEDUC (ASTIN):</strong> (85) 3101-3963</span>
+                                    <span className="title"><strong>E-mail:</strong> marcosdionisio@gmail.com</span>
                                 </div>
 
-                                <form className="form">
+                                {/*
+                                  <form className="form">
                                     <div className="input-group">
                                         <div className="search-bar-itens search-input-container shadow-sm">
                                             <input className="search-input form-input-font" type="text" name="search" id="search" placeholder="NOME" />
@@ -49,6 +50,7 @@ export default function Contact() {
                                         <button className="btn search-input btn-font-dark form-input-font">Enviar</button>
                                     </div>
                                 </form>
+                                */}
                             </div>
                         </div>
                     </div>

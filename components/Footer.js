@@ -2,10 +2,11 @@ const Footer = () => (
     <footer className="footer full-width">
         <div className="row display-content social-icons">
             <ul>
-                <li><a href=""><img src="static/icone_google_reader.svg" alt="" /></a></li>
-                <li><a href=""><img src="static/icone_twitter.svg" alt="" /></a></li>
+                <li><a href="https://www.instagram.com/luzdosaberapp"><img src="static/instagram.png" alt="" /></a></li>
+                {/*<li><a href=""><img src="static/icone_twitter.svg" alt="" /></a></li>
                 <li><a href=""><img src="static/icone_youtube.svg" alt="" /></a></li>
-                <li><a href=""><img src="static/icone_facebook.svg" alt="" /></a></li>
+                */}
+                <li><a href="https://pt-br.facebook.com/luzdosaber"><img src="static/icone_facebook.svg" alt="" /></a></li>
             </ul>
         </div>
 
@@ -50,7 +51,7 @@ const Footer = () => (
         <span className="copyright"><a href="https://luzdosaber.seduc.ce.gov.br/politica/index.php" target="_blank">Termos de uso e política de privacidade</a> | &#169; 2019 Luz do Saber. Todos os direitos reservados.</span>
 
         <style jsx>{`
-            
+
             .footer {
                 font-family: 'Itim', cursive;
                 margin-top: 280px;
