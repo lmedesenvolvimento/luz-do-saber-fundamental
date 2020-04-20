@@ -13,9 +13,8 @@ export default function Creditos(){
                   <div className="pagination">
                     <span className="pagination-item">principal</span> <span className="pagination-item">/</span> <span className="pagination-item">créditos</span>
                   </div>
-                  <div className="container">
-                    <br/>
-                    <br/>
+                  <div className="__content">
+
                     <p>
                       <h3>Coordenador do Projeto e Cientista-Chefe Funcap</h3>
                       Jorge Herbert Soares de Lira
@@ -74,10 +73,10 @@ export default function Creditos(){
                     .pagination-item {
                         margin-right: 10px;
                     }
-                    #projeto .__content{
+                    #creditos .__content{
                         margin: 64px 48px 24px;
                     }
-                    #projeto .__content p {
+                    #creditos .__content p {
                         font-size: 21px;
                         margin: 48px 0px;
                     }

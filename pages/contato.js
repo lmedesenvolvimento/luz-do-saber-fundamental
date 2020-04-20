@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import BaseLayout from "../components/Base-Layout";
 import Footer from '../components/Footer';
 
-export default function Contact() {
+export default function Contato() {
     return (
         <div>
             <BaseLayout>
