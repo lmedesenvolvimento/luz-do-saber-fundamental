@@ -3,22 +3,50 @@ import BaseLayout from "../components/Base-Layout";
 import Footer from '../components/Footer';
 
 export default function Projeto(){
-    const links = [
-        {
-            title: 'Luz do Saber - 1º Ano - Caderno de Orientações Didáticas',
-            src: 'static/downloads/Luz do Saber - 1º Ano - Caderno de Orientações Didáticas.pdf',
-        },
+    const linksMateriais = [
         {
             title: 'Luz do Saber - 1º ano',
             src: 'static/downloads/Luz do Saber - 1º ano.pdf',
         },
         {
+            title: 'Luz do Saber - 2º ano',
+            src: 'static/downloads/Luz do Saber - 2º ano.pdf',
+        },
+    ]
+    const linksOrientacoes = [
+        {
+            title: 'Luz do Saber - 1º Ano - Caderno de Orientações Didáticas',
+            src: 'static/downloads/Luz do Saber - 1º Ano - Caderno de Orientações Didáticas.pdf',
+        },
+        {
             title: 'Luz do Saber - 2º Ano - Caderno de Orientações Didáticas',
             src: 'static/downloads/Luz do Saber - 2º Ano - Caderno de Orientações Didáticas.pdf',
         },
+    ]
+    const linksSugestoes = [
         {
-            title: 'Luz do Saber - 2º ano',
-            src: 'static/downloads/Luz do Saber - 2º ano.pdf',
+            title: 'Luz do Saber - Proposta Domiciliar - 1º Ano semana 1',
+            src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 1º Ano semana 1.pdf',
+        },
+        {
+            title: 'Luz do Saber - Proposta Domiciliar - 1º Ano semana 2',
+            src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 1º Ano semana 2.pdf',
+        },
+        {
+            title: 'Luz do Saber - Proposta Domiciliar - 1º Ano semana 3',
+            src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 1º Ano semana 3.pdf',
+        },
+        {
+            title: 'Luz do Saber - Proposta Domiciliar - 2º Ano semana 1',
+            src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 2º Ano semana 1.pdf',
+        },
+        {
+            title: 'Luz do Saber - Proposta Domiciliar - 2º Ano semana 2',
+            src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 2º Ano semana 2.pdf',
+        },
+        {
+            title: 'Luz do Saber - Proposta Domiciliar - 2º Ano semana 3',
+            src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 2º Ano semana 3.pdf',
         },
     ]
     return (
@@ -31,7 +59,12 @@ export default function Projeto(){
                   </div>
                   <div className="__content">
                       <h1 className="heading">Downloads</h1>
-                      <LinkList items={links} />
+                      <h3>Materiais didáticos</h3>
+                      <LinkList items={linksMateriais} />
+                      <h3>Orientações didáticas</h3>
+                      <LinkList items={linksOrientacoes} />
+                      <h3>Sugestões semanais de atividades</h3>
+                      <LinkList items={linksSugestoes} />
                   </div>
                   <div className="footer">
                       <Footer />
