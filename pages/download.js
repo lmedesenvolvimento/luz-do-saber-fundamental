@@ -37,6 +37,10 @@ export default function Projeto(){
             src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 1º Ano semana 3.pdf',
         },
         {
+            title: 'Luz do Saber - Proposta Domiciliar - 1º Ano semana 4',
+            src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 1º Ano semana 4.pdf',
+        },
+        {
             title: 'Luz do Saber - Proposta Domiciliar - 2º Ano semana 1',
             src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 2º Ano semana 1.pdf',
         },
@@ -47,6 +51,10 @@ export default function Projeto(){
         {
             title: 'Luz do Saber - Proposta Domiciliar - 2º Ano semana 3',
             src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 2º Ano semana 3.pdf',
+        },
+        {
+            title: 'Luz do Saber - Proposta Domiciliar - 2º Ano semana 4',
+            src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 2º Ano semana 4.pdf',
         },
     ]
     return (
