@@ -23,7 +23,7 @@ export default function Projeto(){
             src: 'static/downloads/Luz do Saber - 2º Ano - Caderno de Orientações Didáticas.pdf',
         },
     ]
-    const linksSugestoes = [
+    const linksSugestoes1 = [
         {
             title: 'Luz do Saber - Proposta Domiciliar - 1º Ano semana 1',
             src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 1º Ano semana 1.pdf',
@@ -44,6 +44,9 @@ export default function Projeto(){
             title: 'Luz do Saber - Proposta Domiciliar - 1º Ano semana 5',
             src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 1º Ano semana 5.pdf',
         },
+
+    ]
+    const linksSugestoes2 = [
         {
             title: 'Luz do Saber - Proposta Domiciliar - 2º Ano semana 1',
             src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 2º Ano semana 1.pdf',
@@ -79,8 +82,18 @@ export default function Projeto(){
                       <LinkList items={linksMateriais} />
                       <h3>Orientações didáticas</h3>
                       <LinkList items={linksOrientacoes} />
+                      <br/>
                       <h3>Sugestões semanais de atividades</h3>
-                      <LinkList items={linksSugestoes} />
+                      <p>
+                        <h4>1º Ano</h4>
+                        <LinkList items={linksSugestoes1} />
+                      </p>
+                      <p>
+                        <h4>2º Ano</h4>
+                        <LinkList items={linksSugestoes2} />
+                      </p>
+
+
                   </div>
                   <div className="footer">
                       <Footer />
