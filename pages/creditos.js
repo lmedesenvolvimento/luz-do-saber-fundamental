@@ -31,6 +31,10 @@ export default function Creditos(){
                       <h3>Equipe Pedagógica</h3>
                       Eliziana do Nascimento Mendonça<br/>
                       Ellen Damares Felipe de Queiroz
+                      <h3>Projeto Pedagógico</h3>
+                      Marcia Oliveira Cavalcante Campos<br/>
+                      Marcos Dionísio R. do Nascimento<br/>
+                      Thiago Chagas Oliveira<br/>
                       <h3>Ilustradores e Designers</h3>
                       Franscisca Nádia Moura Lopes<br/>
                       Márcio Moreira dos Santos Filho<br/>
