@@ -56,6 +56,10 @@ export default function Projeto(){
             title: 'Luz do Saber - Proposta Domiciliar - 1º Ano semana 8',
             src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 1º Ano semana 8.pdf',
         },
+        {
+            title: 'Luz do Saber - Proposta Domiciliar - 1º Ano semana 9',
+            src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 1º Ano semana 9.pdf',
+        },
 
     ]
     const linksSugestoes2 = [
@@ -90,6 +94,10 @@ export default function Projeto(){
         {
             title: 'Luz do Saber - Proposta Domiciliar - 2º Ano semana 8',
             src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 2º Ano semana 8.pdf',
+        },
+        {
+            title: 'Luz do Saber - Proposta Domiciliar - 2º Ano semana 9',
+            src: 'static/downloads/Luz do Saber - Proposta Domiciliar - 2º Ano semana 9.pdf',
         },
     ]
     return (
